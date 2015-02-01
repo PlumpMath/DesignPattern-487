@@ -1,10 +1,10 @@
-package bridge1;
+package bridge2;
 
-public class Monday extends Day {
-
+public class Sunday extends Day {
+	
 	private DailyWork dlWork;;
 
-	public Monday(DailyWork dlWork) {
+	public Sunday(DailyWork dlWork) {
 		super(dlWork);
 		// TODO Auto-generated constructor stub
 		this.dlWork = dlWork;
@@ -13,7 +13,7 @@ public class Monday extends Day {
 	@Override
 	public void doSomeThingAtNight() {
 		// TODO Auto-generated method stub
-		dlWork.doSomeThingAtNight();
+		dlWork.doSomeThingInTheMorning();
 	}
 
 	@Override
@@ -25,20 +25,19 @@ public class Monday extends Day {
 	@Override
 	public void doSomeThingInTheEvening() {
 		// TODO Auto-generated method stub
-		System.out.println("Buổi chiều Vào thư viện đọc truyện ngôn tình ...");
+		System.out.println("Chi�?u rảnh vào thư viện chơi game ...");
 	}
 
 	@Override
 	public void doSomeThingInTheMorning() {
 		// TODO Auto-generated method stub
-		dlWork.doSomeThingInTheMorning();
-
+		dlWork.doSomeThingAtNight();
 	}
 
 	@Override
 	public void doSomeThingOverNight() {
 		// TODO Auto-generated method stub
-		System.out.println("Buổi đêm làm bài tập về nha ...");
+	System.out.println("�?êm thì tất nhiên là ... vẫn đang ngủ say rồi ...");
 	}
 
 }

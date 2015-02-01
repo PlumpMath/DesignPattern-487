@@ -1,4 +1,4 @@
-package bridge1;
+package bridge2;
 
 public interface DailyWork {
 

@@ -1,35 +1,35 @@
-package bridge1;
+package bridge2;
 
-public class OrdinaryDay implements DailyWork {
+public class Holiday implements DailyWork {
 
 	@Override
 	public void doSomeThingInTheMorning() {
 		// TODO Auto-generated method stub
-		System.out.println("Sáng đi học thầy Quế ...");
+		System.out.println("Sang rồi , đi ngủ thôi !!!");
 	}
 
 	@Override
 	public void doSomeThingInTheAfternoon() {
 		// TODO Auto-generated method stub
-		System.out.println("Chiều đi uống trà đá với người yêu ...");
+		System.out.println("Trưa thì ngủ dậy rồi chơi game !!!");
 	}
 
 	@Override
 	public void doSomeThingInTheEvening() {
 		// TODO Auto-generated method stub
-		System.out.println("Tối đi hẹn hò với bạn bè ...");
+		System.out.println("Buổi chi�?u , đi ngủ tiếp thôi !!!");
 	}
 
 	@Override
 	public void doSomeThingAtNight() {
 		// TODO Auto-generated method stub
-		System.out.println("Tối thì phải đi ngủ sớm ...");
+		System.out.println(" Buổi tối chơi game tiếp thôi !!!");
 	}
 
 	@Override
 	public void doSomeThingOverNight() {
 		// TODO Auto-generated method stub
-		System.out.println("Buổi đêm nằm đắn đo xem có nên bùng học ngày mai không ...");
+		System.out.println(" �?êm hôm , thao thức nghĩ v�? tương lai của nhân loại !!!");
 	}
 
 }
