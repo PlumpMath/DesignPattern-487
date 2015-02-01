@@ -8,6 +8,11 @@ public class VideoDecorator extends LibDecorator {
 
 	}
 
+	
+	
+	/* (non-Javadoc)
+	 * Thêm chức năng play video
+	 */
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub

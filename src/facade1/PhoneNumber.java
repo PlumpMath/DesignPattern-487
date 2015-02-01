@@ -1,4 +1,8 @@
 package facade1;
+/**
+ * Lớp PhoneNumber là lớp sẵn có
+ * Lưu trữ số điẹn thoại
+ */
 public class PhoneNumber {
 
 	private int phoneNumber;

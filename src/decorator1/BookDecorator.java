@@ -9,6 +9,11 @@ public class BookDecorator extends LibDecorator {
 		this.borrower = borrower;
 	}
 
+	
+	
+	/* (non-Javadoc)
+	 * thêm chức năng hiển thị người mượn
+	 */
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub

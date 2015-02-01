@@ -1,4 +1,9 @@
 package facade1;
+
+/**
+ * Lớp Address là lớp sẵn có
+ * Lưu trữ số địa chỉ
+ */
 public class Address {
 
 	private String address;

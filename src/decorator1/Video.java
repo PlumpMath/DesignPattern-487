@@ -2,6 +2,8 @@ package decorator1;
 
 public class Video implements LibraryItem{
 	
+	// Video cũng là một tài liệu thư viện
+	
 
 	private String title ;
 	private int minutes ;

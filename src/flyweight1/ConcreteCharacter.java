@@ -1,5 +1,10 @@
 package flyweight1;
 
+/**
+ * Lớp ConcreteCharacter được dùng để thực thi
+ * Interface Characterr
+ *
+ */
 public class ConcreteCharacter implements Characterr {
 	private String symbol;
 	private String font;

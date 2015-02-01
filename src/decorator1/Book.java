@@ -2,6 +2,8 @@ package decorator1;
 
 public class Book implements LibraryItem {
 	
+	// Sách là một tài liệu thư viện
+	
 	private String title ;
 	private int page ;
 	

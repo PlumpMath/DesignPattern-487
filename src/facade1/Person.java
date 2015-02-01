@@ -1,4 +1,10 @@
 package facade1;
+
+/**
+ * Lớp Person được sinh ra để sử dụng 3 lớp Name , PhoneNumber và Address 
+ * Bản chất mẫu Facade là để client tương tác với lớp facade thay vì phải 
+ * xử lí với nhiều lớp khác .
+ */
 public class Person {
 
 	private Address address;

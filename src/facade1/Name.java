@@ -1,5 +1,10 @@
 package facade1;
 
+/**
+ * Lớp Name là lớp sẵn có
+ * Lưu trữ số tên
+ */
+
 public class Name {
 	
 	private String name;
