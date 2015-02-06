@@ -53,3 +53,6 @@ encoding//src/prototype2/Student.java=UTF-8
 encoding//src/proxy2/ConnectProxy.java=UTF-8
 encoding//src/singleton1/FileLogger.java=UTF-8
 encoding//src/singleton2/ConsoleLogger.java=UTF-8
+encoding//src/strategy1/MergeSort.java=UTF-8
+encoding//src/strategy1/OrdinarySort.java=UTF-8
+encoding//src/strategy1/QuickSort.java=UTF-8
