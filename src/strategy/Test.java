@@ -1,4 +1,4 @@
-package strategy1;
+package strategy;
 
 public class Test {
 

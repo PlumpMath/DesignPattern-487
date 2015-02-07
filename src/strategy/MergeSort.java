@@ -1,4 +1,4 @@
-package strategy1;
+package strategy;
 
 public class MergeSort implements Arrangement {
 
@@ -9,7 +9,7 @@ public class MergeSort implements Arrangement {
 		// TODO Auto-generated method stub
 		currentArray = array;
 
-		// Chia mảng ban đầu thành các mảng con nhỏ hơn
+		// Chia mảng ban đầu thành các mảng con nh�? hơn
 		mergeSort(0, array.length - 1);
 
 		return currentArray;
@@ -25,7 +25,7 @@ public class MergeSort implements Arrangement {
 			return;
 		else {
 
-			// Chia mảng thành 2 mảng con nhỏ hơn
+			// Chia mảng thành 2 mảng con nh�? hơn
 			//
 			mergeSort(i, mid);
 			mergeSort(mid + 1, j);

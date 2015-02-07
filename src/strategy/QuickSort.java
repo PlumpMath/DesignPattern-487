@@ -1,4 +1,4 @@
-package strategy1;
+package strategy;
 
 public class QuickSort implements Arrangement {
 
@@ -25,7 +25,7 @@ public class QuickSort implements Arrangement {
 		// Nếu left < right thì vẫn tiếp túc so sánh
 		while (left <= right) {
 			
-			// Nếu giá trị left vẫn nhỏ hơn giá tị pivot
+			// Nếu giá trị left vẫn nh�? hơn giá tị pivot
 			// Tăng left
 			while (currentArray[left] < pivot)
 				left++;
@@ -35,7 +35,7 @@ public class QuickSort implements Arrangement {
 			while (pivot < currentArray[right])
 				right--;
 			
-			// Thay đổi vị trí 2 giá trị về vị trí đúng cua nó 
+			// Thay đổi vị trí 2 giá trị v�? vị trí đúng cua nó 
 			if (left <= right) {
 				temp = currentArray[left];
 				currentArray[left] = currentArray[right];
@@ -45,8 +45,8 @@ public class QuickSort implements Arrangement {
 			}
 		}
 		
-		// Nếu điều kiện bất biễn vẫn thỏa mãn
-		// Chia thành 2 mảng nhỏ để tiếp tục
+		// Nếu đi�?u kiện bất biễn vẫn th�?a mãn
+		// Chia thành 2 mảng nh�? để tiếp tục
 		if (i < right)
 			quicksort(left, j);
 		if (left < j)
