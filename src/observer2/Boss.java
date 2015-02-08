@@ -1,10 +1,10 @@
-package observer;
+package observer2;
 
-import observer2.Observer;
+import observer.Observer;
 
-public class Client implements Observer {
+public class Boss implements Observer {
 	
-	public Client() {
+	public Boss() {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -12,7 +12,7 @@ public class Client implements Observer {
 	public void update(String operation, String record) {
 		// TODO Auto-generated method stub
 		
-		System.out.println(" The client say a" + operation
+		System.out.println(" The boss say a" + operation
 				+ " operation was performed on " + record);
 		
 	}

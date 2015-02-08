@@ -1,9 +1,9 @@
-package observer;
+package observer2;
 
-import observer2.Archiver;
-import observer2.Boss;
-import observer2.Client;
-import observer2.Database;
+import observer.Archiver;
+import observer.Boss;
+import observer.Client;
+import observer.Database;
 
 public class TestObserver {
 

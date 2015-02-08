@@ -1,5 +1,7 @@
 package observer;
 
+import observer2.Observer;
+
 public class Boss implements Observer {
 	
 	public Boss() {

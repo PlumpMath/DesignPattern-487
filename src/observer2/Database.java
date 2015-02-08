@@ -1,4 +1,4 @@
-package observer;
+package observer2;
 
 import java.util.Vector;
 
@@ -18,17 +18,6 @@ public class Database implements Subject {
 
 	}
 
-	@Override
-	public void registerObserver(Observer o) {
-		// TODO Auto-generated method stub
-		observers.add(o);
-	}
-
-	@Override
-	public void removeObserver(Observer o) {
-		// TODO Auto-generated method stub
-		observers.remove(o);
-	}
 
 	@Override
 	public void notifyObservers() {
@@ -47,6 +36,18 @@ public class Database implements Subject {
 		this.record = record;
 		notifyObservers();
 
+	}
+
+	@Override
+	public void registerObserver(observer.Observer o) {
+		// TODO Auto-generated method stub
+		observers.add(o);
+	}
+
+	@Override
+	public void removeObserver(observer.Observer o) {
+		// TODO Auto-generated method stub
+		observers.remove(o);
 	}
 
 }
