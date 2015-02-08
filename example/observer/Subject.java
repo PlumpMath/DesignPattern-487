@@ -1,6 +1,6 @@
 package observer;
 
-import observer2.Observer;
+import observer.Observer;
 
 public interface Subject {
 	

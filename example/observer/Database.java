@@ -2,8 +2,8 @@ package observer;
 
 import java.util.Vector;
 
-import observer2.Observer;
-import observer2.Subject;
+import observer.Observer;
+import observer.Subject;
 
 public class Database implements Subject {
 

@@ -18,7 +18,6 @@ public class Database implements Subject {
 
 	}
 
-
 	@Override
 	public void notifyObservers() {
 		// TODO Auto-generated method stub
@@ -39,13 +38,13 @@ public class Database implements Subject {
 	}
 
 	@Override
-	public void registerObserver(observer.Observer o) {
+	public void registerObserver(Observer o) {
 		// TODO Auto-generated method stub
 		observers.add(o);
 	}
 
 	@Override
-	public void removeObserver(observer.Observer o) {
+	public void removeObserver(Observer o) {
 		// TODO Auto-generated method stub
 		observers.remove(o);
 	}

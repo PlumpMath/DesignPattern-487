@@ -1,6 +1,6 @@
 package observer2;
 
-import observer.Observer;
+import observer2.Observer;
 
 public class Archiver implements Observer {
 
