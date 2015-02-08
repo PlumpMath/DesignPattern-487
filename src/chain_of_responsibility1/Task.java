@@ -30,13 +30,53 @@ public class Task implements TaskItem {
 	@Override
 	public String getDetails() {
 		// TODO Auto-generated method stub
-		return null;
+		if (getParent() == null) {
+			return details;
+		} else {
+			return parent.getDetails() + " End of String " + "\t";
+		}
 	}
 
 	@Override
 	public ArrayList<TaskItem> getProjectItems() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public ArrayList<TaskItem> getSubtask() {
+		return subtask;
+	}
+
+	public void setSubtask(ArrayList<TaskItem> subtask) {
+		this.subtask = subtask;
+	}
+
+	public void setDetails(String details) {
+		this.details = details;
+	}
+
+	public void setParent(TaskItem parent) {
+		this.parent = parent;
+	}
+
+	public void addSubTask(TaskItem taskItem) {
+		if (!subtask.contains(taskItem)) {
+			subtask.add(taskItem);
+		}
+	}
+
+	public void removeSubTask(TaskItem taskItem) {
+
+		subtask.remove(taskItem);
+
 	}
 
 }
