@@ -1,10 +1,10 @@
 package chain_of_responsibility2;
 
-public class ReginalDirector extends PRHandler {
+public class RegionalDirector extends PRHandler {
 	
 	private static double LIMIT = 100000;
 
-	public ReginalDirector(String handlerName) {
+	public RegionalDirector(String handlerName) {
 		super(handlerName);
 		// TODO Auto-generated constructor stub
 	}
