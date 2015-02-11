@@ -1,7 +1,5 @@
 package iterator1;
 
-import iterator2.Division;
-import iterator2.VP;
 
 public class Test {
 
