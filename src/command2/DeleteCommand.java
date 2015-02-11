@@ -15,7 +15,7 @@ public class DeleteCommand implements CommandInterface {
 	public void execute() {
 		// TODO Auto-generated method stub
 		item.delete(category);
-		// category.add(item);
+		
 	}
 
 }
