@@ -1,6 +1,6 @@
 package strategy2;
 
-public class OrdinarySort implements Arrangement {
+public class SelectedSort implements Arrangement {
 
 	// Phương thức sắp xếp mảng mặc định
 

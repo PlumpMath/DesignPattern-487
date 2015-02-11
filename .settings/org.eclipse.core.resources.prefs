@@ -57,6 +57,3 @@ encoding//src/singleton1/FileLogger.java=UTF-8
 encoding//src/singleton2/ConsoleLogger.java=UTF-8
 encoding//src/strategy1/Context.java=UTF-8
 encoding//src/strategy1/Strategy.java=UTF-8
-encoding//src/strategy2/MergeSort.java=UTF-8
-encoding//src/strategy2/OrdinarySort.java=UTF-8
-encoding//src/strategy2/QuickSort.java=UTF-8
